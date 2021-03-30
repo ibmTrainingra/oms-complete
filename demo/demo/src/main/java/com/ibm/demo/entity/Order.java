@@ -9,6 +9,8 @@ import org.springframework.data.annotation.Id;
 
 public class Order {
 	@NotNull
+	private float tax;
+	@NotNull
 	@NotBlank
 private String item;
 private float price;
@@ -43,6 +45,14 @@ public String getId() {
 
 public void setId(String id) {
 	this.id = id;
+}
+
+public float getTax() {
+	return tax;
+}
+
+public void setTax(float tax) {
+	this.tax = tax;
 }
 
 
