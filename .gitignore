@@ -1,3 +1,7 @@
 .classpath
 **/.setting
 taxcalc/.classpath
+taxcalc/.settings/org.eclipse.core.resources.prefs
+taxcalc/.settings/org.eclipse.jdt.core.prefs
+
+
